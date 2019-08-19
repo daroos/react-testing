@@ -3,7 +3,7 @@ import { FormPresentation } from './FormPresentation';
 
 class App extends React.PureComponent {
   submitForm = (event: any) => {
-    debugger;
+    console.log(event);
   };
 
   render() {
